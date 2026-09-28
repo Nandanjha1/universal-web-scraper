@@ -113,7 +113,7 @@ The application follows a layered architecture.
                           v
                      PostgreSQL
 
-Scraping Architecture
+ Scraping Architecture
 
                  Website URL
                       |
@@ -251,7 +251,7 @@ Use .env.example for sharing configuration structure.
 
 Backend Installation
 
-Clone the repository:   git clone <YOUR_GITHUB_REPOSITORY_URL>
+Clone the repository:   git clone https://github.com/Nandanjha1/universal-web-scraper.git
 
 Move into the project:  cd universal-web-scraper
 
@@ -466,18 +466,19 @@ Automated test coverage
 
 
 Assignment Requirements Covered
-Requirement         	Status
-Dynamic website URL 	Completed
-Web scraping        	Completed
+
+Requirement             	Status
+Dynamic website URL     	Completed
+Web scraping        	    Completed
 Requests + BeautifulSoup	Completed
-PostgreSQL           	Completed
-CRUD APIs	            Completed
-Schema APIs         	Completed
-CSV generation      	Completed
-React frontend      	Completed
-GitHub repository   	To submit
-README/documentation	Completed
-Loom demonstration  	To record
+PostgreSQL               	Completed
+CRUD APIs	                Completed
+Schema APIs             	Completed
+CSV generation          	Completed
+React frontend          	Completed
+GitHub repository       	Completed
+README/documentation    	Completed
+Loom demonstration      	To record
 
 
 Author
