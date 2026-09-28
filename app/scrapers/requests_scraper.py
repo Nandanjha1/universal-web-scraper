@@ -17,7 +17,6 @@ class RequestsScraper(BaseScraper):
 
     def scrape(self, url: str) -> list[dict[str, Any]]:
         self._validate_url(url)
-
         try:
             logger.info("Starting scrape for URL: %s", url)
             response = requests.get(
@@ -33,7 +32,6 @@ class RequestsScraper(BaseScraper):
                     )
                 },
             )
-
             response.raise_for_status()
 
         except requests.exceptions.Timeout as exc:
@@ -56,7 +54,6 @@ class RequestsScraper(BaseScraper):
                 len(data),
                 url,
             )
-
             return data
 
         except Exception as exc:
